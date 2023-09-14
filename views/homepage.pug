@@ -6,7 +6,7 @@ html
         link(rel="stylesheet", href="/css/style.css")
     body    
        h1 Custom Object Table
-       h1.aUbtn  #[a(href='/update-cobj') Add/Update this table]
+       h1.aUbtn  #[a(href='/update-cobj?object=sportsman') Add/Update this table]
         table.table-bordered
             tr
                 th SPORTSMAN NAME
@@ -17,5 +17,6 @@ html
                     td #{sportsman.properties.sportsman_name}
                     td #{sportsman.properties.job}
                     td #{sportsman.properties.age}
+                   
          
             
